@@ -1,15 +1,17 @@
 	package niukewang;
 	
 	/*
-	题目描述
-		给你两个集合，要求{A} + {B}。 注：同一个集合中不会有两个相同的元素。
-	输入
-		3 3
-		1 3 5
-		2 4 6
-	输出
-		1 2 3 4 5 6
-	*/
+	 * 题目描述:
+	 * 
+	 * 给你两个集合，要求{A} + {B}。 注：同一个集合中不会有两个相同的元素。
+	 * 
+	 * 输入
+	 * 	3 3
+	 * 	1 3 5
+	 * 	2 4 6
+	 * 输出
+	 * 	1 2 3 4 5 6
+	 */
 	import java.io.BufferedReader;
 	import java.io.IOException;
 	import java.io.InputStreamReader;

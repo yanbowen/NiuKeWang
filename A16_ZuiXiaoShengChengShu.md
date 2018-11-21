@@ -1,17 +1,20 @@
 	package niukewang;
+	
 	/*
-	题目描述
-		现在雷雷知道哪些麦田之间可以建设水渠和建设每个水渠所需要的费用（注意不是所有麦田之间都可以建立水渠）。
-		请问灌溉所有麦田最少需要多少费用来修建水渠。
-	输入
-		4 4
-		1 2 1
-		2 3 4
-		2 4 2
-		3 4 3
-	输出
-		6
-	*/
+	 * 题目描述:
+	 * 
+	 * 现在雷雷知道哪些麦田之间可以建设水渠和建设每个水渠所需要的费用（注意不是所有麦田之间都可以建立水渠）。
+	 * 请问灌溉所有麦田最少需要多少费用来修建水渠。
+	 * 
+	 * 输入
+	 * 	4 4
+	 * 	1 2 1
+	 * 	2 3 4
+	 * 	2 4 2
+	 * 	3 4 3
+	 * 输出
+	 * 	6
+	 */
 	import java.util.PriorityQueue;
 	import java.util.Queue;
 	import java.util.Scanner;
@@ -19,6 +22,7 @@
 	public class A16_ZuiXiaoShengChengShu {
 		// 最小生成树
 		private static int f[] = new int[1005];
+	
 		public static class Edges implements Comparable<Edges> {
 			public int a, b, c;
 	

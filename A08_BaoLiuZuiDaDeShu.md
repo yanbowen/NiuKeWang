@@ -1,15 +1,18 @@
 	package niukewang;
 	
 	/*
-			String str1 = "abcdefg";   
-			char ch1 = str1.charAt(0); 
-			codePointAt返回指定索引处的字符（Unicode代码点） : a的Unicode码为:97
-	题目描述
-	给定一个十进制的正整数number，选择从里面去掉一部分数字，希望保留下来的数字组成的正整数最大。
-		输入
-			325 1
-		输出
-			35
+	 * String str1 = "abcdefg";   
+	 * char ch1 = str1.charAt(0); 
+	 * codePointAt返回指定索引处的字符（Unicode代码点） : a的Unicode码为:97
+	 * 
+	 * 题目描述:
+	 * 
+	 * 给定一个十进制的正整数number，选择从里面去掉一部分数字，希望保留下来的数字组成的正整数最大。
+	 * 
+	 * 输入
+	 * 		325 1
+	 * 输出
+	 * 		35
 	 */
 	import java.util.Scanner;
 	

@@ -1,14 +1,16 @@
 	package niukewang;
 	
 	/*
-	题目描述
-		给定一个英文字符串,请写一段代码找出这个字符串中首先出现三次的那个英文字符。
-	输出描述:
-		输出首先出现三次的那个英文字符
-	输入
-		Have you ever gone shopping and
-	输出
-		e
+	 * 题目描述
+	 * 
+	 * 给定一个英文字符串,请写一段代码找出这个字符串中首先出现三次的那个英文字符。
+	 * 
+	 * 输出描述:
+	 * 		输出首先出现三次的那个英文字符
+	 * 输入
+	 * 		Have you ever gone shopping and
+	 * 输出
+	 * 		e
 	 */
 	import java.io.BufferedReader;
 	import java.io.IOException;
